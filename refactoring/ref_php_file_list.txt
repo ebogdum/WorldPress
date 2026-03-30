@@ -1,0 +1,6 @@
+./wp-trackback.php
+./wp-cron.php
+./index.php
+./wp-activate.php
+./xmlrpc.php
+./wp-config-sample.php

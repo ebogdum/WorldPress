@@ -11,7 +11,15 @@
  *
  * @var bool
  */
-define( 'WP_USE_THEMES', true );
 
-/** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+// Initialize autoloader (PSR-4) and dependency injection container
+require_once __DIR__ . '/vendor/autoload.php';
+// $container = require __DIR__ . '/config/container.php'; // Example DI container
+
+// Set up error handling (placeholder)
+// set_error_handler([...]);
+// set_exception_handler([...]);
+
+// Hand off to router (placeholder)
+// $router = $container->get(Router::class);
+// $router->dispatch();
